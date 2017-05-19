@@ -1,5 +1,6 @@
-# Set up the prompt
+# My .zshrc
 
+# Set up the prompt
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -18,6 +19,7 @@ HISTFILE=~/.zsh_history
 autoload -Uz compinit
 compinit
 
+# Load all aliases
 if [ -f ~/.zsh_alias ]; then
 	. ~/.zsh_alias
 fi
