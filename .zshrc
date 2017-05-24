@@ -41,7 +41,7 @@ if [ -f ~/.welcome ]; then
 fi
 
 if [ -f ~/.zsh_alias ]; then
-	. ~/.zsh_alias
+	. ~/.zsh_aliases
 fi
 
 if [ -f ~/.workconf ]; then

@@ -1,0 +1,33 @@
+#use aliases for my shell
+
+#colors
+if [ -x /usr/bin/dircolors ]; then
+	test -r ~/.dircolors && eval "dircolos -b ~/.dircolors)" || eval "$(dircolors -b)"
+	alias ls='ls --color=auto'
+	
+	alias grep='grep --color=auto'
+	alias fgrep='fgrep --color=auto'
+	alias egrep='egrep --color=auto'
+fi
+
+#myscripts
+alias sdownloader='source ~/.scripts/sdownloader'
+alias clear='clear && source .zshrc'
+
+#shortcuts
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+#Git Aliases
+alias gpl='git pull'
+alias gps='git push'
+alias gst='git status'
+alias gci='git commit'
+alias gca='git commit -a'
+alias gdf='git diff'
+alias gdc='git diff --cached'
+alias gad='git add'
+alias gap='git add --patch'
+alias gri='git rebase -i'
+
