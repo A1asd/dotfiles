@@ -1,0 +1,4 @@
+printf "+---------------------------------------+\n|\tWillkommen auf $(hostname)\t\t|\n|\t\tJohannes\t\t|\n+---------------------------------------+\n"
+
+cat ship.image
+
