@@ -40,7 +40,7 @@ if [ -f ~/.welcome ]; then
 	. ~/.welcome
 fi
 
-if [ -f ~/.zsh_alias ]; then
+if [ -f ~/.zsh_aliases ]; then
 	. ~/.zsh_aliases
 fi
 
