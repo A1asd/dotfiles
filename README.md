@@ -1,1 +1,2 @@
 # dotfiles
+[![][license img]][license]
